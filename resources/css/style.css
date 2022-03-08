@@ -1,9 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap");
 
 /*GLOBAL SELECTORS*/
-
+html {
+  background-color: #181719;
+}
 body {
-  /*background-color: #181719;*/
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h5,
+p,
+a {
+  color: #fff;
 }
 
 li {
@@ -22,8 +32,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
-  background-color: #181719;
 }
 
 .nav-menu {
@@ -48,7 +56,13 @@ a {
 }
 
 .logo {
-  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: "Crimson Pro", serif;
+  font-weight: 200;
+  color: #fff;
+  border: 1px solid white;
+  line-height: 1.6rem;
+  padding: 8px;
 }
 
 .nav-item {
@@ -87,4 +101,77 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   background-color: white;
+}
+
+/* MAIN CONTENT STYLE */
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 2.25em;
+  margin: 12px 0 25px;
+}
+
+.content-text {
+  font-weight: 400;
+  line-height: 17px;
+  margin-bottom: 25px;
+  max-width: 250px;
+}
+
+.site-container {
+  margin: auto 12px;
+}
+
+button {
+  margin-bottom: 25px;
+}
+
+.content-right {
+  height: 40vh;
+  position: relative;
+  background-image: url(../images/photo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.card {
+  background-color: #181719;
+  position: absolute;
+}
+
+.profile-pic {
+  max-width: 20%;
+  border-radius: 50%;
+}
+
+/* FOOTER */
+footer {
+  min-height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+footer p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.778em;
+  margin: 0 auto;
+  max-width: 90%;
+  color: #a9a9a9;
+  height: 50px;
+  padding-top: 40px;
+}
+
+a {
+  color: #a9a9a9;
+  font-weight: 700;
+}
+
+a:active {
+  color: red;
 }
