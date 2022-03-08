@@ -21,7 +21,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  background-color: black;
+  background-color: #181719;
 }
 
 .nav-menu {
@@ -31,15 +31,18 @@ a {
   left: -100%;
   top: 12%;
   flex-direction: column;
-  background-color: gray;
+  background-color: #181719;
   width: 100%;
   text-align: center;
-  transition: 0.3s;
+  transition: 0.5s ease;
   gap: 0;
 }
 
 .nav-menu.active {
   left: 0;
+  min-height: 90vh;
+  justify-content: center;
+  gap: 32px;
 }
 
 .logo {
@@ -48,14 +51,6 @@ a {
 
 .nav-item {
   margin: 16px 0;
-}
-
-.nav-item:nth-child(1) {
-  margin-top: 100px;
-}
-
-.nav-item:nth-child(4) {
-  margin-bottom: 100px;
 }
 
 .nav-link {
