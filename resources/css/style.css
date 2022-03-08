@@ -25,15 +25,17 @@ a {
 }
 
 .nav-menu {
+  display: flex;
   position: fixed;
+  min-height: 100px;
   left: -100%;
   top: 12%;
   flex-direction: column;
-  gap: 0;
-  background-color: black;
+  background-color: gray;
   width: 100%;
   text-align: center;
   transition: 0.3s;
+  gap: 0;
 }
 
 .nav-menu.active {
@@ -46,6 +48,14 @@ a {
 
 .nav-item {
   margin: 16px 0;
+}
+
+.nav-item:nth-child(1) {
+  margin-top: 100px;
+}
+
+.nav-item:nth-child(4) {
+  margin-bottom: 100px;
 }
 
 .nav-link {
