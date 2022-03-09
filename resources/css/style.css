@@ -3,13 +3,17 @@
 /*GLOBAL SELECTORS*/
 html {
   background-color: #181719;
+  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
 }
+
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
 }
 
 h1,
 h2,
+h4,
 h5,
 p,
 a {
@@ -23,6 +27,11 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.site-container {
+  max-width: 90vw;
+  margin: 0 auto;
 }
 
 /*NAV BAR STYLE*/
@@ -53,13 +62,15 @@ a {
   min-height: 90vh;
   justify-content: center;
   gap: 32px;
+  background-color: #181719;
+  z-index: 500;
 }
 
 .logo {
   font-size: 1.4rem;
+  text-transform: uppercase;
   font-family: "Crimson Pro", serif;
   font-weight: 200;
-  color: #fff;
   border: 1px solid white;
   line-height: 1.6rem;
   padding: 8px;
@@ -70,7 +81,16 @@ a {
 }
 
 .nav-link {
+  font-size: 1.8rem;
+  font-weight: 500;
   transition: 0.7s ease;
+  color: #fff;
+}
+
+.activated {
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
 }
 
 .nav-link:hover {
@@ -108,45 +128,85 @@ a {
 h1 {
   font-family: "Lora", serif;
   font-weight: 500;
-  font-size: 2.25em;
+  font-size: 3.6rem;
   margin: 12px 0 25px;
 }
 
 .content-text {
   font-weight: 400;
-  line-height: 17px;
-  margin-bottom: 25px;
+  line-height: 2rem;
+  margin-bottom: 2.8rem;
   max-width: 250px;
 }
 
-.site-container {
-  margin: auto 12px;
-}
-
 button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   margin-bottom: 25px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 
 .content-right {
-  height: 40vh;
+  height: 50vh;
   position: relative;
   background-image: url(../images/photo1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
+  background-position: center;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   background-color: #181719;
   position: absolute;
+  max-width: 80%;
+  max-height: fit-content;
+  top: 80%;
+  right: 5%;
+  padding: 2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.author-name {
+  align-self: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin: 0.8rem auto auto 27%;
+}
+
+.profession {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #828282;
+  margin: 0.5rem auto auto 27%;
 }
 
 .profile-pic {
   max-width: 20%;
   border-radius: 50%;
+  float: left;
+}
+
+.post-title {
+  font-family: "Lora", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  max-width: 80%;
 }
 
 /* FOOTER */
+
 footer {
   min-height: 100px;
   width: auto;

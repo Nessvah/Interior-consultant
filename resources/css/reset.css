@@ -4,9 +4,6 @@
 *::after {
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
-}
 
 html,
 body,
@@ -29,7 +26,9 @@ article,
 figure,
 figcaption,
 footer,
-header {
+header,
+button,
+span {
   margin: 0;
   padding: 0;
   border: 0;
