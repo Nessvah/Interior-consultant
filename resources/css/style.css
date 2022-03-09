@@ -35,6 +35,10 @@ a {
 }
 
 /*NAV BAR STYLE*/
+.noscroll {
+  height: 100%;
+  overflow: hidden;
+}
 
 .navbar {
   min-height: 100px;
