@@ -16,4 +16,4 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
-//TODO: find a way to enable scroll if user clicks on active hamburguer instead of nav-links
+//TODO: #1 find a way to enable scroll if user clicks on active hamburguer instead of nav-links
