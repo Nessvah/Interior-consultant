@@ -279,11 +279,55 @@ a:active {
     margin: 0 auto;
   }
 
-  .content-text {
-    max-width: 400px;
+  .main-container {
+    gap: 5%;
+    height: 60vh;
+    margin-bottom: 180px;
   }
 
+  .main-content {
+    width: 40%;
+  }
+
+  .content-text {
+    max-width: 350px;
+  }
   .content-text > h1 {
     font-size: 4.2rem;
+  }
+
+  .content-right {
+    width: 60%;
+    height: 90%;
+  }
+
+  .card {
+    width: 55%;
+    top: 90%;
+  }
+
+  .profile-pic {
+    width: 15%;
+  }
+
+  .author-name,
+  .profession {
+    margin: 0.8rem auto auto 20%;
+  }
+
+  .author-name {
+    font-size: 1.6rem;
+  }
+
+  .profession {
+    font-size: 1.4rem;
+  }
+  .post-title {
+    max-width: 250px;
+    font-size: 2.2rem;
+    line-height: 30px;
+  }
+  footer {
+    margin-top: 85px;
   }
 }
