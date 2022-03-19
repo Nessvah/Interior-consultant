@@ -33,11 +33,11 @@ My solution for a challenge from [Devchallenges.io](http://devchallenges.io)
 ![screenshot Mobile](./resources/images/Screenshot-InteriorConsultant-mobile.png)
 ![screenshot](./resources/images/screenshot-InteriorConsultant.png)
 
-Build the page with a mobile-first approach, always thinking about responsiveness and using semantic HTML
-Used flexbox and position absolute to place the card which was quite easy
-Tried to add some javascript to give functionality on the hamburger menu, but since I don't have much experience with JS yet, I encounter some bugs that need to be resolved:
-when we click on the hamburger icon when it's active instead of the nav links, the noscroll function stays on and we can't scroll the webpage;
-the function noscroll doesn't work correctly on safari.
+- Build the page with a mobile-first approach, always thinking about responsiveness and using semantic HTML
+- Used flexbox and position absolute to place the card which was quite easy
+- Tried to add some javascript to give functionality on the hamburger menu, but since I don't have much experience with JS yet, I encounter some bugs that need to be resolved:
+    - when we click on the hamburger icon when it's active instead of the nav links, the noscroll function stays on and we can't scroll the webpage;
+    - the function noscroll doesn't work correctly on safari.
 
 ### Built With
 
